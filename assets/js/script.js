@@ -1,3 +1,5 @@
 $(document).ready(function (e) {
-    alert(1)
+    var slider = new SlideModal ({
+        'trigger': $('#slideModal')
+    });
 })

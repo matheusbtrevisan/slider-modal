@@ -7,7 +7,12 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: ['assets/js/jquery-slim.js','assets/js/*.js'],
+        src: [
+            'assets/js/jquery-slim.js',
+            'assets/js/slide-modal/*.js',
+            'assets/js/script.js',
+            'assets/js/*.js',
+        ],
         dest: 'build/build.min.js'
       }
   },
